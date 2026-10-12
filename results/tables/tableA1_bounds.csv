@@ -1,0 +1,12 @@
+model,setting,range,scale
+svm,C,2^-5 – 2^15,log2
+svm,gamma,2^-15 – 2^3,log2
+rf,n_estimators,50 – 500,int
+rf,max_depth,3 – 30,int
+rf,min_samples_split,2 – 20,int
+rf,max_features,0.1 – 1.0,float
+xgb,learning_rate,2^-10 – 2^0,log2
+xgb,n_estimators,50 – 1000,int
+xgb,subsample,0.1 – 1.0,float
+xgb,max_depth,1 – 15,int
+xgb,colsample_bytree,0.1 – 1.0,float

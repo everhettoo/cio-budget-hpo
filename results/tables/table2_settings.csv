@@ -1,0 +1,4 @@
+method,update rule,settings,population x rounds
+GA,"generational, 1 elite; tournament k=3; uniform crossover; gene reset","pc=0.95, pm=0.1, k=3",16 x (1 + 15)
+DE,DE/rand/1/bin with j_rand; synchronous replacement; halfway edge rule,"F=0.5, CR=0.9",16 x (1 + 15)
+PSO,"global best; own best per particle; v0 = 0; halfway edge rule, v = 0 on that axis","w=0.729844, c1=1.49618, c2=1.49618",16 x (1 + 15)
